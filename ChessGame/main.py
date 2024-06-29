@@ -13,8 +13,15 @@ fps = 60
 
 run = True
 while run:
-    
+    timer.tick(fps)
+    screen.fill('dark_gray')
 
-
+    #event handling
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            RUN = False
+        
+    pygame.display.flip()
+pygame.quit()
 
 
