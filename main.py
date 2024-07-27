@@ -362,7 +362,7 @@ while run:
         counter += 1
     else:
         counter = 0
-    screen.fill('dark gray')
+    screen.fill('dark green')
     draw_board()
     draw_pieces()
     draw_captured()
