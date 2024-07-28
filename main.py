@@ -356,13 +356,14 @@ def draw_game_over():
 black_options = check_options(black_pieces, black_locations, 'black')
 white_options = check_options(white_pieces, white_locations, 'white')
 run = True
+light_blue = (173, 216, 230)
 while run:
     timer.tick(fps)
     if counter < 30:
         counter += 1
     else:
         counter = 0
-    screen.fill('dark green')
+    screen.fill((173, 216, 230))
     draw_board()
     draw_pieces()
     draw_captured()
