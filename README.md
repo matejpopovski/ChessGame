@@ -21,18 +21,7 @@ This project implements a two-player chess game using Python and the Pygame libr
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Layout Test</title>
-    <style>
-        .image-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px;
-        }
-        .image-container img {
-            width: 350px;
-        }
-    </style>
+   
 </head>
 <body>
     <div class="image-container">
