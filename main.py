@@ -362,7 +362,7 @@ while run:
         counter += 1
     else:
         counter = 0
-    screen.fill("dark green") #(0, 100, 0)
+    screen.fill("dark grey") #(0, 100, 0)
     draw_board()
     draw_pieces()
     draw_captured()
@@ -375,6 +375,7 @@ while run:
         if event.type == pygame.QUIT:
             run = False
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1 and not game_over:
+                                                #event.button == 1 checks if it is right-click
             x_coord = event.pos[0] // 100
             y_coord = event.pos[1] // 100
             click_coords = (x_coord, y_coord)
