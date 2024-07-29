@@ -5,7 +5,9 @@ This project implements a two-player chess game using Python and the Pygame libr
 <!-- <img src="images/Screenshot.png" alt="Screenshot of the Chess Game" height="300"/>
 <img src="images/Screenshot2.png" alt="Screenshot of the Chess Game" height="300"/> -->
 
-<div style="display: flex; justify-content: space-around;">
-    <img src="images/Screenshot.png" alt="Screenshot 1" width="400" style="margin-right: 10px;"/>
-    <img src="images/Screenshot2.png" alt="Screenshot 2" width="400"/>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="images/Screenshot1.png" alt="Screenshot 1" width="350"/>
+    <img src="images/Screenshot2.png" alt="Screenshot 2" width="350"/>
+    <img src="images/Screenshot3.png" alt="Screenshot 3" width="350"/>
+    <img src="images/Screenshot4.png" alt="Screenshot 4" width="350"/>
 </div>
