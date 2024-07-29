@@ -257,7 +257,7 @@ def check_pawn(position, color):
                 (position[0], position[1] + 2) not in black_locations \
                     and (position[0], position[1] + 1) not in black_locations \
                     and (position[0], position[1] + 1) not in white_locations \
-                    and position[1] == 1: #line 258 and 259 were not checked and the pawn 
+                    and position[1] == 1: #previous two lines were not written and the pawn 
                                         #was jumping through enemy piece 2 squares
             moves_list.append((position[0], position[1] + 2))
         if (position[0] + 1, position[1] + 1) in black_locations:
