@@ -257,8 +257,8 @@ def check_pawn(position, color):
                 (position[0], position[1] + 2) not in black_locations \
                     and (position[0], position[1] + 1) not in black_locations \
                     and (position[0], position[1] + 1) not in white_locations \
-                    and position[1] == 1: #previous two lines were not written and the pawn 
-                                        #was jumping through enemy piece 2 squares
+                    and position[1] == 1: #previous two lines are not allowing the pawn to jump
+                                    #through an enemy piece 2 squares from the starting position
             moves_list.append((position[0], position[1] + 2))
         if (position[0] + 1, position[1] + 1) in black_locations:
             moves_list.append((position[0] + 1, position[1] + 1))
@@ -269,7 +269,11 @@ def check_pawn(position, color):
                 (position[0], position[1] - 1) not in black_locations and position[1] > 0:
             moves_list.append((position[0], position[1] - 1))
         if (position[0], position[1] - 2) not in white_locations and \
-                (position[0], position[1] - 2) not in black_locations and position[1] == 6:
+                (position[0], position[1] - 2) not in black_locations \
+                and (position[0], position[1] - 1) not in black_locations \
+                and (position[0], position[1] - 1) not in white_locations \
+        and position[1] == 6: #previous two lines are not allowing the pawn to jump
+                            #through an enemy piece 2 squares from the starting position
             moves_list.append((position[0], position[1] - 2))
         if (position[0] + 1, position[1] - 1) in white_locations:
             moves_list.append((position[0] + 1, position[1] - 1))
