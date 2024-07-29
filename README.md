@@ -5,9 +5,13 @@ This project implements a two-player chess game using Python and the Pygame libr
 <!-- <img src="images/Screenshot.png" alt="Screenshot of the Chess Game" height="300"/>
 <img src="images/Screenshot2.png" alt="Screenshot of the Chess Game" height="300"/> -->
 
-<div style="text-align: center;">
-    <img src="images/Screenshot1.png" alt="Screenshot 1" width="350" style="display: inline-block; margin: 20 px;"/>
-    <img src="images/Screenshot2.png" alt="Screenshot 2" width="350" style="display: inline-block; margin: 20 px;"/>
-    <img src="images/Screenshot3.png" alt="Screenshot 3" width="350" style="display: inline-block; margin: 20 px;"/>
-    <img src="images/Screenshot4.png" alt="Screenshot 4" width="350" style="display: inline-block; margin: 20 px;"/>
-</div>
+<table style="border-collapse: separate; border-spacing: 20px;">
+    <tr>
+        <td><img src="images/Screenshot1.png" alt="Screenshot 1" width="350"/></td>
+        <td><img src="images/Screenshot2.png" alt="Screenshot 2" width="350"/></td>
+    </tr>
+    <tr>
+        <td><img src="images/Screenshot3.png" alt="Screenshot 3" width="350"/></td>
+        <td><img src="images/Screenshot4.png" alt="Screenshot 4" width="350"/></td>
+    </tr>
+</table>
