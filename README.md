@@ -15,3 +15,4 @@ This project implements a two-player chess game using Python and the Pygame libr
 </table>
 
 The game checks for valid moves for each piece, highlights possible moves and captures, including special moves like castling, pawn promotion, as well as "En Passant". Additionally, the game keeps track of captured pieces and displays them on the side of the board. When a king is in check, the square flashes to alert the players. The game concludes when one player checkmates the other or a player forfeits.
+ 
