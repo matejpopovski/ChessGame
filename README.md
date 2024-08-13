@@ -1,4 +1,4 @@
-# Two-Player Chess in Python with Pygame 
+# Two-Player Chess in Python with Pygame
 
 This project implements a two-player chess game using Python and the Pygame library. The game features an interactive GUI where players can select and move pieces according to standard chess rules. The board is drawn dynamically, and the positions of the pieces are updated in real-time based on player inputs. 
 
